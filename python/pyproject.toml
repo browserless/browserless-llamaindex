@@ -1,0 +1,15 @@
+[project]
+name = "browserless-llamaindex-examples"
+version = "0.1.0"
+description = "LlamaIndex examples for the Browserless MCP server"
+requires-python = ">=3.10"
+dependencies = [
+    "llama-index>=0.13",
+    "llama-index-tools-mcp",
+    "llama-index-llms-anthropic",
+    "ipykernel",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
